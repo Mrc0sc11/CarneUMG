@@ -23,12 +23,6 @@ body {font-family: "Lato", sans-serif}
     <a href="#tour" class="w3-bar-item w3-button w3-padding-large w3-hide-small">TOP</a>
     <a href="#contact" class="w3-bar-item w3-button w3-padding-large w3-hide-small">CONTACTANOS</a>
     <div class="w3-dropdown-hover w3-hide-small">
-      <button class="w3-padding-large w3-button" title="More">MORE <i class="fa fa-caret-down"></i></button>     
-      <div class="w3-dropdown-content w3-bar-block w3-card-4">
-        <a href="#" class="w3-bar-item w3-button">UMG</a>
-        <a href="#" class="w3-bar-item w3-button">Carne</a>
-        <a href="#" class="w3-bar-item w3-button">Introducción a los sistemas de</a>
-      </div>
     </div>
     <a href="javascript:void(0)" class="w3-padding-large w3-hover-red w3-hide-small w3-right"><i class="fa fa-search"></i></a>
   </div>
@@ -36,10 +30,9 @@ body {font-family: "Lato", sans-serif}
 
 <!-- Navbar on small screens (remove the onclick attribute if you want the navbar to always show on top of the content when clicking on the links) -->
 <div id="navDemo" class="w3-bar-block w3-black w3-hide w3-hide-large w3-hide-medium w3-top" style="margin-top:46px">
-  <a href="#band" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">BAND</a>
-  <a href="#tour" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">TOUR</a>
-  <a href="#contact" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">CONTACT</a>
-  <a href="#" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">MERCH</a>
+  <a href="#band" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">Conocenos</a>
+  <a href="#tour" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">TOP</a>
+  <a href="#contact" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">Contactanos </a>
 </div>
 
 <!-- Page content -->
@@ -137,16 +130,16 @@ body {font-family: "Lato", sans-serif}
       <header class="w3-container w3-teal w3-center w3-padding-32"> 
         <span onclick="document.getElementById('ticketModal').style.display='none'" 
        class="w3-button w3-teal w3-xlarge w3-display-topright">×</span>
-        <h2 class="w3-wide"><i class="fa fa-suitcase w3-margin-right"></i>Tickets</h2>
+        <h2 class="w3-wide"><i class="fa fa-meat w3-margin-right"></i>Realiza tu orden</h2>
       </header>
       <div class="w3-container">
-        <p><label><i class="fa fa-shopping-cart"></i> Tickets, $15 per person</label></p>
-        <input class="w3-input w3-border" type="text" placeholder="How many?">
-        <p><label><i class="fa fa-user"></i> Send To</label></p>
-        <input class="w3-input w3-border" type="text" placeholder="Enter email">
-        <button class="w3-button w3-block w3-teal w3-padding-16 w3-section w3-right">PAY <i class="fa fa-check"></i></button>
-        <button class="w3-button w3-red w3-section" onclick="document.getElementById('ticketModal').style.display='none'">Close <i class="fa fa-remove"></i></button>
-        <p class="w3-right">Need <a href="#" class="w3-text-blue">help?</a></p>
+        <p><label><i class="fa fa-shopping-cart"></i> Envio gratuito</label></p>
+        <input class="w3-input w3-border" type="text" placeholder="Cuantos cortes deseas?">
+        <p><label><i class="fa fa-user"></i> Enviar a?</label></p>
+        <input class="w3-input w3-border" type="text" placeholder="Correo Electronico">
+        <button class="w3-button w3-block w3-teal w3-padding-16 w3-section w3-right">Pagar <i class="fa fa-check"></i></button>
+        <button class="w3-button w3-red w3-section" onclick="document.getElementById('ticketModal').style.display='none'">Cerrar <i class="fa fa-remove"></i></button>
+        <p class="w3-right">Necesitas <a href="#" class="w3-text-blue">ayuda?</a></p>
       </div>
     </div>
   </div>
